@@ -1,5 +1,5 @@
 
-const initialstate = 0;
+const initialstate = 10;
 const ActionReducer = (state = initialstate, action) => {
     switch (action.type) {
         case "Increment":
